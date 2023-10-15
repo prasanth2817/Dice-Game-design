@@ -1,0 +1,109 @@
+.div-style {
+  display: flex;
+  justify-content: center;
+  color: rgb(87, 163, 11);
+}
+.div1-style {
+  display: flex;
+  justify-content: center;
+}
+.div2-style {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: column;
+  align-items: center;
+  height: 250px;
+  width: 350px;
+  font-size: xx-large;
+  font-weight: 900;
+}
+.div3-style {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: column;
+  align-items: center;
+  height: 250px;
+  width: 350px;
+  font-size: xx-large;
+  font-weight: 900;
+}
+.div6-style {
+  display: flex;
+  justify-content: space-evenly;
+}
+.div5-style {
+  display: flex;
+  justify-content: center;
+}
+.reset {
+  padding: 5px;
+  width: 80px;
+  background-color: rgb(255, 144, 144);
+}
+.rollnowbtn {
+  background-color: rgb(23, 169, 23);
+}
+body {
+  margin: 0;
+  margin-top: 90px;
+  padding: 85px;
+}
+@media(max-width: 480px){
+    .div-style {
+        display: flex;
+        justify-content: center;
+        color: rgb(87, 163, 11);
+      } 
+      .div1-style {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        height: 100px;
+      }
+      .div2-style {
+        display: flex;
+        justify-content: space-evenly;
+        flex-flow: column;
+        align-items: center;
+        height: 150px;
+        width: 250px;
+        font-size: large;
+        font-weight: 700;
+      }
+      .div3-style {
+        display: flex;
+        justify-content: space-evenly;
+        flex-flow: column;
+        align-items: center;
+        height: 150px;
+        width: 250px;
+        font-size: large;
+        font-weight: 700;
+      } 
+      .div4-style{
+        height: 250px;
+        width: 250px;
+      }
+      .div6-style {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column;
+        align-items: center;
+        height: auto;
+      }
+      body {
+        margin: 0;
+        margin-top: 7px;
+        padding: 4px;
+      }
+      .rollnowbtn {
+        background-color: forestgreen;
+        font-weight: 700;
+      }
+      .reset {
+        padding: 5px;
+        width: 80px;
+        font-weight: 700;
+        background-color: rgb(255, 144, 144);
+      }
+}
